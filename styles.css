@@ -1,0 +1,156 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: flex;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 0;
+    margin-top: 200px;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+  
+
+  }
+  
+  .login-box {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: 0;
+  }
+  
+  h1 {
+    margin-bottom: 60px;
+    font-size: 800px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    display: center;
+    justify-content: center;
+  }
+  .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.5s ease;
+    width: 90%;
+    text-align: center;
+
+  }
+  .profile-card {
+    max-width: 400px; /* Reduced width */
+  }
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  }
+  .card-img-top {
+    border: top left radius 8px;
+    border-top-right-radius: 8px;
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .card .btn {
+    margin-top: 20px;
+  }
+  .card.mx-auto {
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+ /* Button Styles */
+.button {
+  padding: 12px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.button:focus {
+  outline: none;
+}
+  
+  .card-title {
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .card-text {
+    color: #555;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+  }
+  .row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem; /* Adds spacing between cards */
+  }
+  /* Column Styling */
+  .col-md-3 {
+    flex: 0 0 calc(25% - 1.5rem); /* Adjust column width and spacing */
+    max-width: calc(25% - 1.5rem);
+}
+    @media (min-width: 500px) {
+    .card-img-top {
+      height: 150px;
+    }
+  
+    .card-title {
+      font-size: 1rem;
+    }
+  
+    .card-text {
+      font-size: 0.8rem;
+    }
+    
+
+  
+  footer {
+    font-size: 12px;
+    color: #fff;
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+  }
+    }

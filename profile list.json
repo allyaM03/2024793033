@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Student 1",
+        "program": "Computer Science",
+        "image": "profile1.jpg",
+        "link": "profile1.php"
+    },
+    {
+        "name": "Student 2",
+        "program": "Information Systems",
+        "image": "profile2.jpg",
+        "link": "profile2.php"
+    },
+    {
+        "name": "Student 3",
+        "program": "Information Library",
+        "image": "profile3.jpg",
+        "link": "profile3.php"
+    },
+    {
+        "name": "Student 4",
+        "program": "Architecture",
+        "image": "profile4.png",
+        "link": "profile4.php"
+    },
+    {
+        "name": "Student 5",
+        "program": "Administration",
+        "image": "profile5.png",
+        "link": "profile5.php"
+    },
+    {
+        "name": "Student 6",
+        "program": "Culinary Arts",
+        "image": "profile6.png",
+        "link": "profile6.php"
+    }
+]
